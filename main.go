@@ -41,6 +41,7 @@ type Avenger struct {
 
 func main() {
 
+	// here we are creating a struct variable called firstAvenger
 	firstAvenger := Avenger{
 		ID:            1,
 		SuperHeroName: "ironman",
