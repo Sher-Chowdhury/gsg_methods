@@ -53,8 +53,8 @@ func main() {
 		Notice the variable.methodname() syntax for applying a method to a variable.
 		we use a dot notation to apply the UpperCase method to the firstAvenger custom object.
 	*/
-	fmt.Println(firstAvenger.UpperCase())
+	fmt.Println(firstAvenger.UpperCase()) // IRONMAN
 
-	fmt.Println(firstAvenger.GetWeight(true))
-	fmt.Println(firstAvenger.GetWeight(false))
+	fmt.Println(firstAvenger.GetWeight(true))  // 75
+	fmt.Println(firstAvenger.GetWeight(false)) // 165.375
 }
